@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bcrypt', '~> 3.1.7'
 gem 'state_machines'
 gem 'state_machines-activerecord'
+gem "slim-rails"
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
