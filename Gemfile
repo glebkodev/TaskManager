@@ -13,6 +13,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'state_machines'
 gem 'state_machines-activerecord'
 gem 'slim-rails'
+gem 'simple_form'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
