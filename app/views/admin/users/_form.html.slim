@@ -6,5 +6,5 @@
     = f.input :password
     = f.input :type, as: :select, collection: ['Admin', 'Manager', 'Developer']
   p
-    = f.button :submit, "Confirm", class: 'mdl-button--colored'
-    = f.button :submit, "Back", formaction: admin_users_url, formmethod: "get"
+    => f.button :submit, "Confirm", class: 'mdl-button--colored'
+    = link_to "Back", admin_users_path, class: "mdl-button mdl-js-button mdl-button--raised"
