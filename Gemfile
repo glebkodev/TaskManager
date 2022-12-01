@@ -14,6 +14,10 @@ gem 'state_machines'
 gem 'state_machines-activerecord'
 gem 'slim-rails'
 gem 'simple_form'
+gem 'kaminari'
+gem 'ransack'
+gem 'responders'
+gem 'active_model_serializers'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 
